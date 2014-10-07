@@ -1,0 +1,10 @@
+commit: HEAD
+process_files: [Quicksand-Regular.ttf.ttx, Quicksand-LightItalic.ttf.ttx, Quicksand-Light.ttf.ttx,
+  Quicksand-Italic.ttf.ttx, Quicksand-BoldItalic.ttf.ttx, Quicksand-Bold.ttf.ttx,
+  src/Quicksand-Regular.otf.ttx, src/Quicksand-LightItalic.otf.ttx, src/Quicksand-Light.otf.ttx,
+  src/Quicksand-Italic.otf.ttx, src/Quicksand-BoldItalic.otf.ttx, src/Quicksand-Bold.otf.ttx,
+  src/Quicksand-Regular-TTF.sfd, src/Quicksand-LightItalic-TTF.sfd, src/Quicksand-Light-TTF.sfd,
+  src/Quicksand-Italic-TTF.sfd, src/Quicksand-BoldItalic-TTF.sfd, src/Quicksand-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
